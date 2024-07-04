@@ -12,9 +12,7 @@ for i in iron_bars:
         else: # i == ')'
             bar_cnt += len(stack)
     else: # before == ')'
-        if i == '(':
-            pass
-        else: # i == ')'
+        if i == ')':
             bar_cnt += 1
             stack.pop(-1)
     before = i
