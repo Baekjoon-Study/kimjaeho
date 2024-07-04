@@ -1,7 +1,5 @@
-![poteto|200](https://item.kakaocdn.net/do/efb1c9748127198f8db2104db082639f15b3f4e3c2033bfd702a321ec6eda72c)
-
-
 # Poteto
+![poteto|200](https://item.kakaocdn.net/do/efb1c9748127198f8db2104db082639f15b3f4e3c2033bfd702a321ec6eda72c)
 
 ## Goal
 
