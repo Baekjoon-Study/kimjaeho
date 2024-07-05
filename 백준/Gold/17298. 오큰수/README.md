@@ -49,9 +49,9 @@ print(' '.join(map(str, result)))
 
 9 5 4 8 과 같은 일련의 숫자가 입력되는 경우<br>
 내가 짠 코드에서는<br>
-9 $\rightarrow$ 5, 4, 8 : 큰 수 없으므로 -1<br>
-5 $\rightarrow$ 4, 8 : 8<br>
-4 $\rightarrow$ 8 : 8<br>
+9 $\rightarrow$ 5, 4, 8 $\rightarrow$ 더 큰 수가 없으므로 -1<br>
+5 $\rightarrow$ 4, 8 $\rightarrow 8<br>
+4 $\rightarrow$ 8 $\rightarrow 8<br>
 이렇게 인덱스마다 탐색해야 한다.<br>
 <br>
 GPT가 짠 코드의 로직은 아래와 같다.<br>
