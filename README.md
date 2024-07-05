@@ -33,7 +33,7 @@
 
 - [x] [단어 뒤집기 2](https://www.acmicpc.net/problem/17413)
 - [x] [쇠막대기](https://www.acmicpc.net/problem/10799)(240704)
-- [ ] [오큰수](https://www.acmicpc.net/problem/17298)
+- [x] [오큰수](https://www.acmicpc.net/problem/17298)
 - [ ] [오등큰수](https://www.acmicpc.net/problem/17299)
 
 #### 203 - 자료구조 1 (참고)
