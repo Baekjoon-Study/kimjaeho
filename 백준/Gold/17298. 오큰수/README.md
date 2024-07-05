@@ -5,43 +5,46 @@
 그랬더니 스택을 활용해서 문제를 해결하는 걸 보여줌....<br>
 내가 짠 코드는 모든 인덱스에 걸쳐 더 큰 수가 나올 때까지 탐색을 해야하므로 시간복잡도가 $O(n^2)$인데, 시간을 줄이기 위해서는 스택을 이용하여 한 번만 탐색하도록 해야 한다는 것.<br>
 <br>
-    ```python title:'내 코드'
-    import sys
+
+```python title:'내 코드'
+import sys
+
+n = int(sys.stdin.readline())
+
+nge = list(map(int, sys.stdin.readline().split()))
+result = [-1] * n
+
+for i in range(n):
+    idx = i+1
+    while idx < len(nge):
+        if nge[i] < nge[idx]:
+            result[i] = nge[idx]
+            break
+        idx += 1
     
-    n = int(sys.stdin.readline())
-    
-    nge = list(map(int, sys.stdin.readline().split()))
-    result = [-1] * n
-    
-    for i in range(n):
-        idx = i+1
-        while idx < len(nge):
-            if nge[i] < nge[idx]:
-                result[i] = nge[idx]
-                break
-            idx += 1
-        
-    print(' '.join(map(str, result)))
-    ```
+print(' '.join(map(str, result)))
+```
+
 <br>
 아래는 chat GPT가 짠 코드<br>
-    ```python title:'GPT 코드'
-    import sys
-    
-    n = int(sys.stdin.readline())
-    
-    nge = list(map(int, sys.stdin.readline().split()))
-    result = [-1] * n
-    
-    stack = []
-    
-    for i in range(n):
-        while stack and nge[stack[0]] < nge[i]:
-            result[stack.pop(0)] = nge[i]
-        stack.append(i)
-    
-    print(' '.join(map(str, result)))
-    ```
+
+```python title:'GPT 코드'
+import sys
+
+n = int(sys.stdin.readline())
+
+nge = list(map(int, sys.stdin.readline().split()))
+result = [-1] * n
+
+stack = []
+
+for i in range(n):
+    while stack and nge[stack[0]] < nge[i]:
+        result[stack.pop(0)] = nge[i]
+    stack.append(i)
+
+print(' '.join(map(str, result)))
+```
 
 9 5 4 8 과 같은 일련의 숫자가 입력되는 경우<br>
 내가 짠 코드에서는<br>
