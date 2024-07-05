@@ -3,7 +3,7 @@
 
 ## Goal
 
-- 백준 골드 1
+- 백준 골드 2
 
 ## Instruction
 
