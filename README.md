@@ -39,7 +39,7 @@
 #### 203 - 자료구조 1 (참고)
 
 - [x] [후위 표기식2](https://www.acmicpc.net/problem/1935) (240708)
-- [ ] [후위 표기식](https://www.acmicpc.net/problem/1918)
+- [x] [후위 표기식](https://www.acmicpc.net/problem/1918) (240709)
 - [ ] [알파벳 개수](https://www.acmicpc.net/problem/10808)
 - [ ] [알파벳 찾기](https://www.acmicpc.net/problem/10809)
 - [ ] [문자열 분석](https://www.acmicpc.net/problem/10820)
