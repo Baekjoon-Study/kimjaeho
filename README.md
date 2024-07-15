@@ -43,8 +43,8 @@
 - [x] [알파벳 개수](https://www.acmicpc.net/problem/10808) (240710)
 - [x] [알파벳 찾기](https://www.acmicpc.net/problem/10809) (240711)
 - [x] [문자열 분석](https://www.acmicpc.net/problem/10820) (240712)
-- [ ] [단어 길이 재기](https://www.acmicpc.net/problem/2743)
-- [ ] [ROT13](https://www.acmicpc.net/problem/11655)
+- [x] [단어 길이 재기](https://www.acmicpc.net/problem/2743) (240715)
+- [x] [ROT13](https://www.acmicpc.net/problem/11655) (240716)
 - [ ] [네 수](https://www.acmicpc.net/problem/10824)
 - [ ] [접미사 배열](https://www.acmicpc.net/problem/11656)
 
