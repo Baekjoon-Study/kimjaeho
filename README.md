@@ -43,14 +43,14 @@
 - [x] [알파벳 개수](https://www.acmicpc.net/problem/10808) (240710)
 - [x] [알파벳 찾기](https://www.acmicpc.net/problem/10809) (240711)
 - [x] [문자열 분석](https://www.acmicpc.net/problem/10820) (240712)
-- [ ] [단어 길이 재기](https://www.acmicpc.net/problem/2743)
-- [ ] [ROT13](https://www.acmicpc.net/problem/11655)
-- [ ] [네 수](https://www.acmicpc.net/problem/10824)
-- [ ] [접미사 배열](https://www.acmicpc.net/problem/11656)
+- [x] [단어 길이 재기](https://www.acmicpc.net/problem/2743) (240713)
+- [x] [ROT13](https://www.acmicpc.net/problem/11655) (240714)
+- [x] [네 수](https://www.acmicpc.net/problem/10824) (240715)
+- [x] [접미사 배열](https://www.acmicpc.net/problem/11656) (240717)
 
 #### 300 - 수학 1
 
-- [ ] [나머지](https://www.acmicpc.net/problem/10430)
+- [x] [나머지](https://www.acmicpc.net/problem/10430) (240718)
 - [ ] [최대공약수와 최소공배수](https://www.acmicpc.net/problem/2609)
 - [ ] [최소공배수](https://www.acmicpc.net/problem/1934)
 - [ ] [소수 찾기](https://www.acmicpc.net/problem/1978)
