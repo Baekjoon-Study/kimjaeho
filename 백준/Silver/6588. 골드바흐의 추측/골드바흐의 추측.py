@@ -5,7 +5,7 @@ number[0], number[1] = 0, 0
 
 for i in range(2, int(len(number) ** 0.5) + 1):
     if number[i]:
-        for j in range(i * i, 1000001, i):
+        for j in range(i + i, 1000001, i):
             number[j] = 0
 
 while True:
