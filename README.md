@@ -58,7 +58,7 @@
 - [x] [골드바흐의 추측](https://www.acmicpc.net/problem/6588) (240725)
 - [x] [팩토리얼](https://www.acmicpc.net/problem/10872) (240726)
 - [x] [팩토리얼 0의 개수](https://www.acmicpc.net/problem/1676) (240727)
-- [ ] [조합 0의 개수](https://www.acmicpc.net/problem/2004)
+- [x] [조합 0의 개수](https://www.acmicpc.net/problem/2004) (240729)
 
 #### 301 - 수학 1 (연습)
 
