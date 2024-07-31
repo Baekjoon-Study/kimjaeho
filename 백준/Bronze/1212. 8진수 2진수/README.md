@@ -2,6 +2,19 @@
 
 [문제 링크](https://www.acmicpc.net/problem/1212) 
 
+----
+
+2, 8, 16진수는 bin(), oct(), hex() 함수를 지원한다.
+
+print(bin(11))
+print(oct(11))
+print(hex(11))
+0b1011
+0o13
+0xb
+
+----
+
 ### 성능 요약
 
 메모리: 33076 KB, 시간: 44 ms
