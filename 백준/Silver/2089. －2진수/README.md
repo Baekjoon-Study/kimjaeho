@@ -1,5 +1,31 @@
 # [Silver II] -2진수 - 2089 
 
+
+```
+
+import sys
+
+if __name__ == '__main__':
+    n = int(sys.stdin.readline())
+    res = '' # -2진법으로 전환한 결과를 저장할 변수
+    if n == 0: # n이 0이면 그냥 0 출력하고 종료하면 된다.
+        print(0)
+        exit()
+
+    while n: # n이 0이 아닌 동안. python에서는 0외의 모든 수를 True로 인식한다.
+        if n % (-2): # n이 -2로 나누어떨어지지 않는 경우
+            res = '1' + res # res가 001이었으면 '1' + '001' = '1001'
+            n = n//-2 +1 # 1//-2 -> -1이다. 따라서 1을 더하면 0이 된다.
+        else:
+            res = '0' + res 
+            n = n//-2
+
+    print(res)
+
+# 근데 왜 1//-2 = -1이냐
+```
+
+
 [문제 링크](https://www.acmicpc.net/problem/2089) 
 
 ### 성능 요약
