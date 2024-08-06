@@ -66,8 +66,8 @@
 - [x] [숨바꼭질 6](https://www.acmicpc.net/problem/17087) (240801)
 - [x] [2진수 8진수](https://www.acmicpc.net/problem/1373) (240802)
 - [x] [8진수 2진수](https://www.acmicpc.net/problem/1212) (240803)
-- [ ] [-2진수](https://www.acmicpc.net/problem/2089)
-- [ ] [골드바흐 파티션](https://www.acmicpc.net/problem/17103)
+- [x] [-2진수](https://www.acmicpc.net/problem/2089) (240805)
+- [x] [골드바흐 파티션](https://www.acmicpc.net/problem/17103) (240806)
 
 #### 303 - 수학 1 (참고)
 
