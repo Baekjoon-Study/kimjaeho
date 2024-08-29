@@ -2,6 +2,12 @@
 
 [문제 링크](https://www.acmicpc.net/problem/2579) 
 
+# Review
+
+![image](https://i.namu.wiki/i/ecQSoMKzMKkAjKrnRgbh2yl1J7_fW-LLHO64fgoXmMUWkQru_ENBKIi5VWWR0JDRRJ0913os9WdNQi37ZvAHKA.webp)
+다이나믹 프로그래밍을 이용한 풀이.
+점화식을 통해 문제를 해결함.
+
 ### 성능 요약
 
 메모리: 31120 KB, 시간: 32 ms
