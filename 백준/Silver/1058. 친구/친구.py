@@ -19,12 +19,12 @@ friends = [list(input()) for _ in range(n)]
 
 connected = [[0] * n for _ in range(n)]
 
-for k in range(n):
-    for i in range(n):
-        for j in range(n):
+for i in range(n):
+    for j in range(n):
+        for k in range(n):
             if i == j:
                 continue
-            if friends[i][j] == "Y" or (friends[i][k] == "Y" and friends[k][j] == "Y"):
+            if friends[i][j] == "Y" or (friends[k][i] == "Y" and friends[j][k] == "Y"):
                 # 수식을 꼭 이렇게 해야 하나? 너무 어려운 것 같은디
                 connected[i][j] = 1
 
